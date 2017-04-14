@@ -1,4 +1,21 @@
 {
+  "name": "gulp-JSONtoJS",
+  "version": "0.1",
+  "description": "Converted JSON to js",
+  "homepage": "https://github.com/KILLERMAX91/GULP-JSONtoJS",
+  "keywords": [
+    "gulpplugin",
+    "gulp-JSONtoJS"
+  ],
+  "author": {
+    "name": "Barata Mathieu",
+    "email": "mathieu.barata@gmail.com",
+    "url": "https://github.com/KILLERMAX91"
+  },
+  "main": "./index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "start": "gulp start"
   },
