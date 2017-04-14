@@ -1,33 +1,36 @@
 {
-  "name": "gulp-JSONtoJS",
-  "version": "0.1",
-  "description": "Converted JSON to js",
-  "homepage": "https://github.com/KILLERMAX91/GULP-JSONtoJS",
-  "keywords": [
-    "gulpplugin",
-    "gulp-JSONtoJS"
-  ],
-  "author": {
-    "name": "Barata Mathieu",
-    "email": "mathieu.barata@gmail.com",
-    "url": "https://github.com/KILLERMAX91"
+  "name": "GULP-JSONtoJS",
+  "version": "1.0.0",
+  "description": "gulp-JSONtoJS is a gulp plugin to converted JSON to js files easily.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
   },
-  "main": "./index.js",
-  "files": [
-    "index.js"
-  ],
   "scripts": {
-    "start": "gulp start"
+    "test": "gulp start"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KILLERMAX91/GULP-JSONtoJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KILLERMAX91/GULP-JSONtoJS/issues"
+  },
+  "homepage": "https://github.com/KILLERMAX91/GULP-JSONtoJS#readme",
   "dependencies": {
+
     "path": "^0.12.7",
     "require-dir": "^0.3.1",
-    "through2": "^2.0.3",
-    "transform": "^1.1.2"
+    "through2": "^2.0.3"
   },
   "devDependencies": {
+    "gulp-util": "^3.0.8",
+    "fs": "^0.0.1-security",
     "gulp": "^3.9.1",
     "gulp-sequence": "^0.4.6",
-    "gulp-jasmine": "^2.4.2"
+    "read-file": "^0.2.0"
   }
 }
