@@ -1,8 +1,8 @@
-# gulp-JSONtoJS
+# gulp-json-to-js
 
-gulp-JSONtoJS is a [gulp](https://github.com/wearefractal/gulp) plugin to converted JSON to js files easily.
+gulp-json-to-js is a [gulp](https://github.com/wearefractal/gulp) plugin to converted JSON to js files easily.
 
-you should install `npm install gulp-JSONtoJS`
+you should install `npm install gulp-json-to-js`
 ### Exemple
 
 ```javascript
