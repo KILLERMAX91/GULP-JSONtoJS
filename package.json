@@ -1,6 +1,6 @@
 {
   "name": "gulp-json-to-js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "gulp-JSONtoJS is a gulp plugin to converted JSON to js files easily.",
   "main": "index.js",
   "directories": {

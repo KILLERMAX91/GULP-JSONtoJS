@@ -3,9 +3,13 @@
 gulp-json-to-js is a [gulp](https://github.com/wearefractal/gulp) plugin to converted JSON to js files easily.
 
 you should install `npm install gulp-json-to-js`
+
 ### Exemple
 
 ```javascript
+var gulp = require('gulp');
+var JSONtoJS = require('gulp-json-to-js');
+
 var base = function () {
     return gulp.src('./test/modele/base.json')
         .pipe(JSONtoJS())
@@ -17,6 +21,9 @@ gulp.task('base', [], base);
 **or**
 
 ```javascript
+var gulp = require('gulp');
+var JSONtoJS = require('gulp-json-to-js');
+
 var base = function () {
     return gulp.src('./test/modele/base.json')
         .pipe(JSONtoJS({nameVariableSufix:'Suffix'}))
